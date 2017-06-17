@@ -18,7 +18,7 @@ $(function () {
       success: function() {
         alert("Your message has been sent! One of our sales representatives will be in touch soon");
         $pageTracker.eraseTracker();
-        window.location.href = '/index.html';
+        window.location = './';
       },
       error: function(data) {
         console.error(data);
