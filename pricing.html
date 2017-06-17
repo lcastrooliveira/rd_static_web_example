@@ -9,12 +9,75 @@
   <title>Pricing</title>
 </head>
 <body>
-  <h1>This is the pricing page</h1>
-  <a href="/index.html">Home</a>
-  <a href="/contact.html">Contacts</a>
-  <a href="/about.html">About</a>
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">XCOM Laser</a>
+    </div>
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="about.html">About Us</a></li>
+        <li class="active"><a href="pricing.html">Pricing</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+  </nav>
+  <div class="container">
+    <h1>Be prepared for the next alien invasion</h1>
+    <h3>What are you waiting for ? A sectoid on your doorsteps ?</h3>
+    <div class="row">
+      <div class="col-md-6">
+        <img src="images/laser_rifle.jpg" class="img-thumbnail">
+      </div>
+      <div class="col-md-6">
+        <p style="font-size: 1.3em">
+          Morbi eget libero libero. Quisque lacinia nibh non arcu cursus, at scelerisque libero semper. Phasellus eleifend tellus at ex volutpat, at consequat erat dignissim. Cras justo ante, molestie at molestie a, lobortis a libero. Cras scelerisque in nulla in pulvinar. Curabitur luctus neque magna, quis euismod urna vulputate in. Morbi maximus, ipsum eu iaculis congue, justo quam imperdiet ante, sed pretium dolor libero vitae urna. Etiam varius ex in ex faucibus sagittis. Phasellus ut egestas turpis. Maecenas porta, erat vel volutpat accumsan, ipsum felis rhoncus nisl, vel ultricies arcu velit sit amet arcu. Praesent vulputate scelerisque velit eu mattis.
+        </p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h2>Extendend State</h2>
+            <h5>Top of the line product, Aliens don't get a chance</h5>
+          </div>
+          <div class="panel-footer"><h1><strong>$ 499.99</strong></h1></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h2>Compact State</h2>
+            <h5>Very lightweight and easy to carry</h5>
+          </div>
+          <div class="panel-footer"><h1><strong>$ 299.99</strong></h1></div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <h2>Compat + Extended</h2>
+            <h5>The complete kit, and you save $50</h5>
+          </div>
+          <div class="panel-footer"><h1><strong>$ 749.49</strong></h1></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
   <script src="js/jquery-2.1.4.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-  <script src="js/page_tracker.js"></script>
+  <script src="js/page-tracker.min.js"></script>
+  <script src="js/app.js"></script>
 </body>
 </html>
